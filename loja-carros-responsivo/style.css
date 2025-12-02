@@ -33,7 +33,7 @@ nav h1 {
 .nav-right {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 10px;
     margin: 0;
     padding: 0;
 }
@@ -42,10 +42,6 @@ nav h1 {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-}
-
-.nav-right li a:hover {
-    color: #febe01; 
 }
 
 .grid-container {
@@ -95,7 +91,7 @@ span {
     color: #febe01;
 }
 
-button {
+.info button {
     text-align: center;
     background-color: #febe01;
     color: #332200;
@@ -107,4 +103,13 @@ button {
     cursor: pointer;
     font-weight: bold;
     align-self: flex-start;
+}
+
+a button {
+    background-color: #af8b1e;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 32px;
+    width: 130px;
 }
